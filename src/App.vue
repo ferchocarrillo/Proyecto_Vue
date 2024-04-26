@@ -1,12 +1,16 @@
 <template>
-<Contador></Contador>
+<MainView></MainView>
+
 </template>
-
-
 <script setup>
-import Contador from './components/icons/Contador.vue';
+
+import MainView from './views/MainView.vue';
+
+
 </script>
 
 <style scoped>
-
+body{
+  background: white !important;
+}
 </style>
